@@ -31,7 +31,7 @@ project(${LIBRARY_NAME} LANGUAGES CXX VERSION 1.1.1)
 ## OPTIONS
 ##
 option(ENABLE_EXAMPLES "Build examples." ON)
-option(ENABLE_TESTING  "Build the unit tests." OFF)
+option(ENABLE_TESTING  "Build the unit tests." ON)
 
 ##
 ## TARGET
@@ -136,6 +136,8 @@ endif()
 if(ENABLE_TESTING)
     enable_testing()
     include_directories(${LIBRARY_DEV_DIR})
+    add_subdirectory(libfoo)
+    add_subdirectory(libbar)
     add_subdirectory(test)
 endif()
 

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shawn/Files/Project/GraphSTL/libfoo/foo.cpp
+ibar.h
+/Users/shawn/Files/Project/GraphSTL/libfoo/ibar.h
+foo.h
+/Users/shawn/Files/Project/GraphSTL/libfoo/foo.h
+
+/Users/shawn/Files/Project/GraphSTL/libfoo/foo.h
+
+/Users/shawn/Files/Project/GraphSTL/libfoo/ibar.h
+

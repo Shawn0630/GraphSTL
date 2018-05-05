@@ -78,6 +78,17 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/local/Cellar/cmake/3.10.0/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shawn/Files/Project/GraphSTL/build/CMakeFiles /Users/shawn/Files/Project/GraphSTL/build/CMakeFiles/progress.marks
@@ -136,6 +147,71 @@ example-caffeine/fast:
 	$(MAKE) -f doc/examples/CMakeFiles/example-caffeine.dir/build.make doc/examples/CMakeFiles/example-caffeine.dir/build
 .PHONY : example-caffeine/fast
 
+#=============================================================================
+# Target rules for targets named libfoo
+
+# Build rule for target.
+libfoo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libfoo
+.PHONY : libfoo
+
+# fast build rule for target.
+libfoo/fast:
+	$(MAKE) -f libfoo/CMakeFiles/libfoo.dir/build.make libfoo/CMakeFiles/libfoo.dir/build
+.PHONY : libfoo/fast
+
+#=============================================================================
+# Target rules for targets named libbar
+
+# Build rule for target.
+libbar: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libbar
+.PHONY : libbar
+
+# fast build rule for target.
+libbar/fast:
+	$(MAKE) -f libbar/CMakeFiles/libbar.dir/build.make libbar/CMakeFiles/libbar.dir/build
+.PHONY : libbar/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f test/CMakeFiles/gtest.dir/build.make test/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named testfoo
+
+# Build rule for target.
+testfoo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testfoo
+.PHONY : testfoo
+
+# fast build rule for target.
+testfoo/fast:
+	$(MAKE) -f test/testfoo/CMakeFiles/testfoo.dir/build.make test/testfoo/CMakeFiles/testfoo.dir/build
+.PHONY : testfoo/fast
+
+#=============================================================================
+# Target rules for targets named testconstructor
+
+# Build rule for target.
+testconstructor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testconstructor
+.PHONY : testconstructor
+
+# fast build rule for target.
+testconstructor/fast:
+	$(MAKE) -f test/testconstructor/CMakeFiles/testconstructor.dir/build.make test/testconstructor/CMakeFiles/testconstructor.dir/build
+.PHONY : testconstructor/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -144,8 +220,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... example-route_finding"
 	@echo "... example-caffeine"
+	@echo "... libfoo"
+	@echo "... libbar"
+	@echo "... gtest"
+	@echo "... testfoo"
+	@echo "... testconstructor"
 .PHONY : help
 
 

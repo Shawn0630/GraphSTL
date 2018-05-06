@@ -101,6 +101,8 @@ gtest/gtest.h
 /Users/shawn/Files/Project/GraphSTL/test/testconstructor/testconstructor.cpp
 testconstructor.h
 /Users/shawn/Files/Project/GraphSTL/test/testconstructor/testconstructor.h
+iostream
+-
 
 /Users/shawn/Files/Project/GraphSTL/test/testconstructor/testconstructor.h
 gtest/gtest.h

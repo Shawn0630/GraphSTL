@@ -26,3 +26,7 @@
 /Users/shawn/Files/Project/GraphSTL/build/test/testconstructor/CMakeFiles/rebuild_cache.dir
 /Users/shawn/Files/Project/GraphSTL/build/test/testconstructor/CMakeFiles/edit_cache.dir
 /Users/shawn/Files/Project/GraphSTL/build/test/testconstructor/CMakeFiles/testconstructor.dir
+/Users/shawn/Files/Project/GraphSTL/build/test/testcyclegraph/CMakeFiles/test.dir
+/Users/shawn/Files/Project/GraphSTL/build/test/testcyclegraph/CMakeFiles/rebuild_cache.dir
+/Users/shawn/Files/Project/GraphSTL/build/test/testcyclegraph/CMakeFiles/edit_cache.dir
+/Users/shawn/Files/Project/GraphSTL/build/test/testcyclegraph/CMakeFiles/testcyclegraph.dir

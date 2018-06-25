@@ -614,6 +614,14 @@ std::vector<typename graph<Key, T, Cost, Nat>::node::edge> graph<Key, T, Cost, N
 }
 
 template <class Key, class T, class Cost, Nature Nat>
+std::list<Key> graph<Key, T, Cost, Nat>::get_sccs() const{
+    std::deque<Key> stack;
+    for (const_iterator it{cbegin()}; it != cend(); ++it) {
+    
+    }
+}
+
+template <class Key, class T, class Cost, Nature Nat>
 bool graph<Key, T, Cost, Nat>::is_cyclic() const {
 
 }

@@ -212,19 +212,6 @@ testconstructor/fast:
 	$(MAKE) -f test/testconstructor/CMakeFiles/testconstructor.dir/build.make test/testconstructor/CMakeFiles/testconstructor.dir/build
 .PHONY : testconstructor/fast
 
-#=============================================================================
-# Target rules for targets named testcyclegraph
-
-# Build rule for target.
-testcyclegraph: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testcyclegraph
-.PHONY : testcyclegraph
-
-# fast build rule for target.
-testcyclegraph/fast:
-	$(MAKE) -f test/testcyclegraph/CMakeFiles/testcyclegraph.dir/build.make test/testcyclegraph/CMakeFiles/testcyclegraph.dir/build
-.PHONY : testcyclegraph/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -241,7 +228,6 @@ help:
 	@echo "... gtest"
 	@echo "... testfoo"
 	@echo "... testconstructor"
-	@echo "... testcyclegraph"
 .PHONY : help
 
 

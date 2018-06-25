@@ -270,7 +270,6 @@ clean: libbar/CMakeFiles/libbar.dir/clean
 test/all: test/CMakeFiles/gtest.dir/all
 test/all: test/testfoo/all
 test/all: test/testconstructor/all
-test/all: test/testcyclegraph/all
 
 .PHONY : test/all
 
@@ -278,14 +277,12 @@ test/all: test/testcyclegraph/all
 test/clean: test/CMakeFiles/gtest.dir/clean
 test/clean: test/testfoo/clean
 test/clean: test/testconstructor/clean
-test/clean: test/testcyclegraph/clean
 
 .PHONY : test/clean
 
 # Convenience name for "preinstall" pass in the directory.
 test/preinstall: test/testfoo/preinstall
 test/preinstall: test/testconstructor/preinstall
-test/preinstall: test/testcyclegraph/preinstall
 
 .PHONY : test/preinstall
 
@@ -348,11 +345,11 @@ test/testfoo/preinstall:
 # Target rules for target test/testfoo/CMakeFiles/testfoo.dir
 
 # All Build rule for target.
-test/testfoo/CMakeFiles/testfoo.dir/all: test/CMakeFiles/gtest.dir/all
 test/testfoo/CMakeFiles/testfoo.dir/all: libfoo/CMakeFiles/libfoo.dir/all
+test/testfoo/CMakeFiles/testfoo.dir/all: test/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/testfoo/CMakeFiles/testfoo.dir/build.make test/testfoo/CMakeFiles/testfoo.dir/depend
 	$(MAKE) -f test/testfoo/CMakeFiles/testfoo.dir/build.make test/testfoo/CMakeFiles/testfoo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/shawn/Files/Project/GraphSTL/build/CMakeFiles --progress-num=23,24,25 "Built target testfoo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/shawn/Files/Project/GraphSTL/build/CMakeFiles --progress-num=20,21,22 "Built target testfoo"
 .PHONY : test/testfoo/CMakeFiles/testfoo.dir/all
 
 # Include target in all.
@@ -434,61 +431,6 @@ test/testconstructor/CMakeFiles/testconstructor.dir/clean:
 
 # clean rule for target.
 clean: test/testconstructor/CMakeFiles/testconstructor.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory test/testcyclegraph
-
-# Convenience name for "all" pass in the directory.
-test/testcyclegraph/all: test/testcyclegraph/CMakeFiles/testcyclegraph.dir/all
-
-.PHONY : test/testcyclegraph/all
-
-# Convenience name for "clean" pass in the directory.
-test/testcyclegraph/clean: test/testcyclegraph/CMakeFiles/testcyclegraph.dir/clean
-
-.PHONY : test/testcyclegraph/clean
-
-# Convenience name for "preinstall" pass in the directory.
-test/testcyclegraph/preinstall:
-
-.PHONY : test/testcyclegraph/preinstall
-
-#=============================================================================
-# Target rules for target test/testcyclegraph/CMakeFiles/testcyclegraph.dir
-
-# All Build rule for target.
-test/testcyclegraph/CMakeFiles/testcyclegraph.dir/all: test/CMakeFiles/gtest.dir/all
-	$(MAKE) -f test/testcyclegraph/CMakeFiles/testcyclegraph.dir/build.make test/testcyclegraph/CMakeFiles/testcyclegraph.dir/depend
-	$(MAKE) -f test/testcyclegraph/CMakeFiles/testcyclegraph.dir/build.make test/testcyclegraph/CMakeFiles/testcyclegraph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/shawn/Files/Project/GraphSTL/build/CMakeFiles --progress-num=20,21,22 "Built target testcyclegraph"
-.PHONY : test/testcyclegraph/CMakeFiles/testcyclegraph.dir/all
-
-# Include target in all.
-all: test/testcyclegraph/CMakeFiles/testcyclegraph.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-test/testcyclegraph/CMakeFiles/testcyclegraph.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shawn/Files/Project/GraphSTL/build/CMakeFiles 11
-	$(MAKE) -f CMakeFiles/Makefile2 test/testcyclegraph/CMakeFiles/testcyclegraph.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shawn/Files/Project/GraphSTL/build/CMakeFiles 0
-.PHONY : test/testcyclegraph/CMakeFiles/testcyclegraph.dir/rule
-
-# Convenience name for target.
-testcyclegraph: test/testcyclegraph/CMakeFiles/testcyclegraph.dir/rule
-
-.PHONY : testcyclegraph
-
-# clean rule for target.
-test/testcyclegraph/CMakeFiles/testcyclegraph.dir/clean:
-	$(MAKE) -f test/testcyclegraph/CMakeFiles/testcyclegraph.dir/build.make test/testcyclegraph/CMakeFiles/testcyclegraph.dir/clean
-.PHONY : test/testcyclegraph/CMakeFiles/testcyclegraph.dir/clean
-
-# clean rule for target.
-clean: test/testcyclegraph/CMakeFiles/testcyclegraph.dir/clean
 
 .PHONY : clean
 

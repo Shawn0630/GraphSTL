@@ -41,4 +41,3 @@ include_directories("${source_dir}/googletest/include"
 
 add_subdirectory(testfoo)
 add_subdirectory(testconstructor)
-add_subdirectory(testcyclegraph)

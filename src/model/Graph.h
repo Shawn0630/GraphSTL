@@ -286,6 +286,7 @@ class graph {
     template <class = typename std::enable_if<detail::is_undirected<Nat>::value>>
     inline std::vector<typename node::edge> get_edges    (const key_type &) const;
 
+    std::list<Key> get_sccs() const;
     // TODO
     bool is_cyclic() const;
 

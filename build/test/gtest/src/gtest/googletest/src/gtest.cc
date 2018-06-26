@@ -29,7 +29,7 @@
 //
 // Author: wan@google.com (Zhanyong Wan)
 //
-// The Google C++ Testing Framework (Google Test)
+// The Google C++ Testing and Mocking Framework (Google Test)
 
 #include "gtest/gtest.h"
 #include "gtest/internal/custom/gtest.h"
@@ -184,13 +184,14 @@ bool g_help_flag = false;
 
 }  // namespace internal
 
+// Bazel passes in the argument to '--test_filter' via the TESTBRIDGE_TEST_ONLY
+// environment variable.
 static const char* GetDefaultFilter() {
-#ifdef GTEST_TEST_FILTER_ENV_VAR_
-  const char* const testbridge_test_only = getenv(GTEST_TEST_FILTER_ENV_VAR_);
+  const char* const testbridge_test_only =
+      internal::posix::GetEnv("TESTBRIDGE_TEST_ONLY");
   if (testbridge_test_only != NULL) {
     return testbridge_test_only;
   }
-#endif  // GTEST_TEST_FILTER_ENV_VAR_
   return kUniversalFilter;
 }
 
@@ -4907,11 +4908,11 @@ TestCase* UnitTestImpl::GetTestCase(const char* test_case_name,
                                     Test::SetUpTestCaseFunc set_up_tc,
                                     Test::TearDownTestCaseFunc tear_down_tc) {
   // Can we find a TestCase with the given name?
-  const std::vector<TestCase*>::const_iterator test_case =
-      std::find_if(test_cases_.begin(), test_cases_.end(),
+  const std::vector<TestCase*>::const_reverse_iterator test_case =
+      std::find_if(test_cases_.rbegin(), test_cases_.rend(),
                    TestCaseNameIs(test_case_name));
 
-  if (test_case != test_cases_.end())
+  if (test_case != test_cases_.rend())
     return *test_case;
 
   // No.  Let's create one.
@@ -5196,7 +5197,7 @@ bool ShouldRunTestOnShard(int total_shards, int shard_index, int test_id) {
 // each TestCase and TestInfo object.
 // If shard_tests == true, further filters tests based on sharding
 // variables in the environment - see
-// https://github.com/google/googletest/blob/master/googletest/docs/AdvancedGuide.md
+// https://github.com/google/googletest/blob/master/googletest/docs/advanced.md
 // . Returns the number of tests that should run.
 int UnitTestImpl::FilterTests(ReactionToSharding shard_tests) {
   const Int32 total_shards = shard_tests == HONOR_SHARDING_PROTOCOL ?
@@ -5340,11 +5341,15 @@ OsStackTraceGetterInterface* UnitTestImpl::os_stack_trace_getter() {
   return os_stack_trace_getter_;
 }
 
-// Returns the TestResult for the test that's currently running, or
-// the TestResult for the ad hoc test if no test is running.
+// Returns the most specific TestResult currently running.
 TestResult* UnitTestImpl::current_test_result() {
-  return current_test_info_ ?
-      &(current_test_info_->result_) : &ad_hoc_test_result_;
+  if (current_test_info_ != NULL) {
+    return &current_test_info_->result_;
+  }
+  if (current_test_case_ != NULL) {
+    return &current_test_case_->ad_hoc_test_result_;
+  }
+  return &ad_hoc_test_result_;
 }
 
 // Shuffles all test cases, and the tests within each test case,

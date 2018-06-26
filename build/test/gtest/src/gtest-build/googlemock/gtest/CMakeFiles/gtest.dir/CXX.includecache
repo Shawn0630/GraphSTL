@@ -335,6 +335,14 @@ sys/wait.h
 -
 spawn.h
 -
+lib/fdio/io.h
+-
+lib/fdio/spawn.h
+-
+zircon/processargs.h
+-
+zircon/syscalls.h
+-
 gtest/gtest-message.h
 /Users/shawn/Files/Project/GraphSTL/build/test/gtest/src/gtest/googletest/src/gtest/gtest-message.h
 gtest/internal/gtest-string.h
@@ -432,6 +440,10 @@ sys/procfs.h
 procinfo.h
 -
 sys/types.h
+-
+zircon/process.h
+-
+zircon/syscalls.h
 -
 gtest/gtest-spi.h
 /Users/shawn/Files/Project/GraphSTL/build/test/gtest/src/gtest/googletest/src/gtest/gtest-spi.h

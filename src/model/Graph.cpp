@@ -3,6 +3,7 @@
 ///
 
 #include <set>
+#include <deque>
 
 template <class Key, class T, class Cost, Nature Nat>
 typename graph<Key, T, Cost, Nat>::iterator graph<Key, T, Cost, Nat>::begin() noexcept {
@@ -615,7 +616,9 @@ std::vector<typename graph<Key, T, Cost, Nat>::node::edge> graph<Key, T, Cost, N
 
 template <class Key, class T, class Cost, Nature Nat>
 std::list<Key> graph<Key, T, Cost, Nat>::get_sccs() const{
-    std::deque<Key> stack;
+    using std::deque;
+    
+    deque<Key> stack;
     for (const_iterator it{cbegin()}; it != cend(); ++it) {
     
     }

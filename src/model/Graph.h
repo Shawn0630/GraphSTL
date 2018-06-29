@@ -8,8 +8,9 @@
 #include <algorithm> /// find
 #include <fstream>   /// setw, operator<<
 #include <iomanip>   /// setw
-#include <map>       /// map
+#include <map>       /// map, multimap
 #include <vector>    /// vector
+#include <deque>
 
 /// C++ language standard detection
 #if   (defined(__cplusplus) && __cplusplus >= 201703L) || (defined(_MSC_VER)   && _MSC_VER > 1900 && defined(_HAS_CXX17) && _HAS_CXX17 == 1)
@@ -286,10 +287,12 @@ class graph {
     template <class = typename std::enable_if<detail::is_undirected<Nat>::value>>
     inline std::vector<typename node::edge> get_edges    (const key_type &) const;
 
-    std::list<Key> get_sccs() const;
+    std::multimap<Key, Key> get_sccs() const;
     // TODO
+    std::vector<Key> get_dfs_tree() const;
+    //TODO
+    void strong_connect(const Key &, std::deque<Key> &, std::size_t, std::map<Key, std::size_t> &, std::map<Key, std::size_t> &, std::multimap<Key, Key> &) const;
     bool is_cyclic() const;
-
     // TODO
     bool is_isomorphic() const;
 

@@ -615,18 +615,86 @@ std::vector<typename graph<Key, T, Cost, Nat>::node::edge> graph<Key, T, Cost, N
 }
 
 template <class Key, class T, class Cost, Nature Nat>
-std::list<Key> graph<Key, T, Cost, Nat>::get_sccs() const{
+std::multimap<Key, Key> graph<Key, T, Cost, Nat>::get_sccs() const{
     using std::deque;
-    
+    using std::map;
+    using std::multimap;
+    using std::vector;
+
+    std::size_t order = 0;
     deque<Key> stack;
+    map<Key, std::size_t> orders;
+    map<Key, std::size_t> links;
+    multimap<Key, Key> sccs;
+
     for (const_iterator it{cbegin()}; it != cend(); ++it) {
-    
+        if (orders.find(it->first) == orders.cend())  {
+            strong_connect(it->first, stack, order, orders, links, sccs);
+        }
+    }
+
+    return sccs;
+}
+
+template <class Key, class T, class Cost, Nature Nat>
+void graph<Key, T, Cost, Nat>::strong_connect(const Key& key, std::deque<Key> &stack, std::size_t order, std::map<Key, std::size_t> &orders, std::map<Key, std::size_t> &links, std::multimap<Key, Key> &sccs) const
+{
+    orders[key] = order;
+    links[key] = orders[key];
+    stack.push_front(key);
+
+    std::vector<typename node::edge> list{get_nature() == DIRECTED ? get_out_edges(key) : get_edges(key)};
+    for (typename node::edge e : list)
+    {
+        const_iterator i{e.target()};
+        if (orders.find(i->first) == orders.cend()) {
+            strong_connect(i->first, stack, order + 1, orders, links, sccs);
+            links[key] = std::min(links[key], links[i->first]);
+        } else if (std::find(stack.cbegin(), stack.cend(), i->first) != stack.cend()) {
+            links[key] = std::min(links[key], orders[i->first]);
+        }
+    }
+    if (links[key] == orders[key]) {
+        while (stack.front() != key) {
+            sccs.insert(std::make_pair(key, stack.front()));
+            stack.pop_front();
+        }
+        sccs.insert(std::make_pair(key, stack.front()));
+        stack.pop_front();
     }
 }
 
 template <class Key, class T, class Cost, Nature Nat>
-bool graph<Key, T, Cost, Nat>::is_cyclic() const {
+std::vector<Key> graph<Key, T, Cost, Nat>::get_dfs_tree() const
+{
+    using std::deque;
+    using std::vector;
 
+    vector<Key> visited;
+    deque<Key> stack;
+    stack.push_back(cbegin()->first);
+    visited.push_back(cbegin()->first);
+
+    while(!stack.empty()) {
+        Key p{stack.front()};
+        stack.pop_front();
+
+        std::vector<typename node::edge> list{get_nature() == DIRECTED ? get_out_edges(p) : get_edges(p)};
+        for (typename node::edge e : list) {
+            const_iterator i{e.target()};
+            if (std::find(visited.cbegin(), visited.cend(), i->first) == visited.cend()) {
+                stack.push_back(i->first);
+                visited.push_back(i->first);
+            }
+        }
+    }
+
+    return visited;
+}
+
+template <class Key, class T, class Cost, Nature Nat>
+bool graph<Key, T, Cost, Nat>::is_cyclic() const
+{
 }
 
 template <class Key, class T, class Cost, Nature Nat>

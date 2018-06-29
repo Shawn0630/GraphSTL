@@ -15,25 +15,25 @@ The CXX compiler identification is GNU, found in "/Users/shawn/Files/Project/Gra
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bf1ba/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bf1ba.dir/build.make CMakeFiles/cmTC_bf1ba.dir/build
-Building CXX object CMakeFiles/cmTC_bf1ba.dir/testCXXCompiler.cxx.o
-/usr/local/bin/g++-7     -o CMakeFiles/cmTC_bf1ba.dir/testCXXCompiler.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_bf1ba
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf1ba.dir/link.txt --verbose=1
-/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bf1ba.dir/testCXXCompiler.cxx.o  -o cmTC_bf1ba 
+Run Build Command:"/usr/bin/make" "cmTC_44177/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_44177.dir/build.make CMakeFiles/cmTC_44177.dir/build
+Building CXX object CMakeFiles/cmTC_44177.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-7     -o CMakeFiles/cmTC_44177.dir/testCXXCompiler.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_44177
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44177.dir/link.txt --verbose=1
+/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_44177.dir/testCXXCompiler.cxx.o  -o cmTC_44177 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_10d51/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_10d51.dir/build.make CMakeFiles/cmTC_10d51.dir/build
-Building CXX object CMakeFiles/cmTC_10d51.dir/CMakeCXXCompilerABI.cpp.o
-/usr/local/bin/g++-7     -o CMakeFiles/cmTC_10d51.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_10d51
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10d51.dir/link.txt --verbose=1
-/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_10d51.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_10d51 
+Run Build Command:"/usr/bin/make" "cmTC_f44a6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f44a6.dir/build.make CMakeFiles/cmTC_f44a6.dir/build
+Building CXX object CMakeFiles/cmTC_f44a6.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-7     -o CMakeFiles/cmTC_f44a6.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f44a6
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f44a6.dir/link.txt --verbose=1
+/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f44a6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f44a6 
 Using built-in specs.
 COLLECT_GCC=/usr/local/bin/g++-7
 COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/7.3.0/lto-wrapper
@@ -43,10 +43,10 @@ Thread model: posix
 gcc version 7.3.0 (Homebrew GCC 7.3.0_1) 
 COMPILER_PATH=/usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/7.3.0/:/usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/7.3.0/:/usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/:/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/:/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/
 LIBRARY_PATH=/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/:/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10d51' '-mmacosx-version-min=10.13.6' '-asm_macosx_version_min=10.13' '-shared-libgcc' '-mtune=core2'
- /usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/7.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.13.6 -weak_reference_mismatches non-weak -o cmTC_10d51 -L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0 -L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_10d51.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f44a6' '-mmacosx-version-min=10.13.6' '-asm_macosx_version_min=10.13' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/7.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.13.6 -weak_reference_mismatches non-weak -o cmTC_f44a6 -L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0 -L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f44a6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
 collect2 version 7.3.0
-/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.13.6 -weak_reference_mismatches non-weak -o cmTC_10d51 -L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0 -L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_10d51.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.13.6 -weak_reference_mismatches non-weak -o cmTC_f44a6 -L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0 -L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f44a6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
 @(#)PROGRAM:ld  PROJECT:ld64-351.8
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 @(#)PROGRAM:ld  PROJECT:ld64-351.8
@@ -59,20 +59,20 @@ Library search paths:
 Framework search paths:
 	/Library/Frameworks/
 	/System/Library/Frameworks/
- /usr/bin/nm -n CMakeFiles/cmTC_10d51.dir/CMakeCXXCompilerABI.cpp.o
+ /usr/bin/nm -n CMakeFiles/cmTC_f44a6.dir/CMakeCXXCompilerABI.cpp.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_10d51/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_10d51.dir/build.make CMakeFiles/cmTC_10d51.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_10d51.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/local/bin/g++-7     -o CMakeFiles/cmTC_10d51.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_10d51]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10d51.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_10d51.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_10d51 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f44a6/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f44a6.dir/build.make CMakeFiles/cmTC_f44a6.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_f44a6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/g++-7     -o CMakeFiles/cmTC_f44a6.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f44a6]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f44a6.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_f44a6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f44a6 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/bin/g++-7]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/7.3.0/lto-wrapper]
@@ -82,8 +82,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Homebrew GCC 7.3.0_1) ]
   ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/7.3.0/:/usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/7.3.0/:/usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/:/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/:/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/]
   ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/:/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10d51' '-mmacosx-version-min=10.13.6' '-asm_macosx_version_min=10.13' '-shared-libgcc' '-mtune=core2']
-  link line: [ /usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/7.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.13.6 -weak_reference_mismatches non-weak -o cmTC_10d51 -L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0 -L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_10d51.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f44a6' '-mmacosx-version-min=10.13.6' '-asm_macosx_version_min=10.13' '-shared-libgcc' '-mtune=core2']
+  link line: [ /usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/7.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.13.6 -weak_reference_mismatches non-weak -o cmTC_f44a6 -L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0 -L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f44a6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
     arg [/usr/local/Cellar/gcc/7.3.0_1/libexec/gcc/x86_64-apple-darwin17.3.0/7.3.0/collect2] ==> ignore
     arg [-dynamic] ==> ignore
     arg [-arch] ==> ignore
@@ -93,13 +93,13 @@ Parsed CXX implicit link information from above output:
     arg [-weak_reference_mismatches] ==> ignore
     arg [non-weak] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_10d51] ==> ignore
+    arg [cmTC_f44a6] ==> ignore
     arg [-L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0] ==> dir [/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0]
     arg [-L/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../..] ==> dir [/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../..]
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_10d51.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f44a6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-no_compact_unwind] ==> ignore
     arg [-lSystem] ==> lib [System]
@@ -129,13 +129,13 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b116e/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b116e.dir/build.make CMakeFiles/cmTC_b116e.dir/build
-Building CXX object CMakeFiles/cmTC_b116e.dir/feature_tests.cxx.o
-/usr/local/bin/g++-7    -std=c++1z -o CMakeFiles/cmTC_b116e.dir/feature_tests.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b116e
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b116e.dir/link.txt --verbose=1
-/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b116e.dir/feature_tests.cxx.o  -o cmTC_b116e 
+Run Build Command:"/usr/bin/make" "cmTC_89a4c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_89a4c.dir/build.make CMakeFiles/cmTC_89a4c.dir/build
+Building CXX object CMakeFiles/cmTC_89a4c.dir/feature_tests.cxx.o
+/usr/local/bin/g++-7    -std=c++1z -o CMakeFiles/cmTC_89a4c.dir/feature_tests.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_89a4c
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89a4c.dir/link.txt --verbose=1
+/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_89a4c.dir/feature_tests.cxx.o  -o cmTC_89a4c 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -200,13 +200,13 @@ Linking CXX executable cmTC_b116e
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fdf3b/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fdf3b.dir/build.make CMakeFiles/cmTC_fdf3b.dir/build
-Building CXX object CMakeFiles/cmTC_fdf3b.dir/feature_tests.cxx.o
-/usr/local/bin/g++-7    -std=c++14 -o CMakeFiles/cmTC_fdf3b.dir/feature_tests.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_fdf3b
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdf3b.dir/link.txt --verbose=1
-/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fdf3b.dir/feature_tests.cxx.o  -o cmTC_fdf3b 
+Run Build Command:"/usr/bin/make" "cmTC_37587/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_37587.dir/build.make CMakeFiles/cmTC_37587.dir/build
+Building CXX object CMakeFiles/cmTC_37587.dir/feature_tests.cxx.o
+/usr/local/bin/g++-7    -std=c++14 -o CMakeFiles/cmTC_37587.dir/feature_tests.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_37587
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37587.dir/link.txt --verbose=1
+/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_37587.dir/feature_tests.cxx.o  -o cmTC_37587 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -271,13 +271,13 @@ Linking CXX executable cmTC_fdf3b
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c55e3/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c55e3.dir/build.make CMakeFiles/cmTC_c55e3.dir/build
-Building CXX object CMakeFiles/cmTC_c55e3.dir/feature_tests.cxx.o
-/usr/local/bin/g++-7    -std=c++11 -o CMakeFiles/cmTC_c55e3.dir/feature_tests.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c55e3
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c55e3.dir/link.txt --verbose=1
-/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c55e3.dir/feature_tests.cxx.o  -o cmTC_c55e3 
+Run Build Command:"/usr/bin/make" "cmTC_9cb67/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9cb67.dir/build.make CMakeFiles/cmTC_9cb67.dir/build
+Building CXX object CMakeFiles/cmTC_9cb67.dir/feature_tests.cxx.o
+/usr/local/bin/g++-7    -std=c++11 -o CMakeFiles/cmTC_9cb67.dir/feature_tests.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9cb67
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cb67.dir/link.txt --verbose=1
+/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9cb67.dir/feature_tests.cxx.o  -o cmTC_9cb67 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -342,13 +342,13 @@ Linking CXX executable cmTC_c55e3
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4cc4a/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4cc4a.dir/build.make CMakeFiles/cmTC_4cc4a.dir/build
-Building CXX object CMakeFiles/cmTC_4cc4a.dir/feature_tests.cxx.o
-/usr/local/bin/g++-7    -std=c++98 -o CMakeFiles/cmTC_4cc4a.dir/feature_tests.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4cc4a
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cc4a.dir/link.txt --verbose=1
-/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4cc4a.dir/feature_tests.cxx.o  -o cmTC_4cc4a 
+Run Build Command:"/usr/bin/make" "cmTC_1b978/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1b978.dir/build.make CMakeFiles/cmTC_1b978.dir/build
+Building CXX object CMakeFiles/cmTC_1b978.dir/feature_tests.cxx.o
+/usr/local/bin/g++-7    -std=c++98 -o CMakeFiles/cmTC_1b978.dir/feature_tests.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1b978
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b978.dir/link.txt --verbose=1
+/usr/local/bin/g++-7    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1b978.dir/feature_tests.cxx.o  -o cmTC_1b978 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -411,64 +411,64 @@ Linking CXX executable cmTC_4cc4a
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
 Change Dir: /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a9e20/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a9e20.dir/build.make CMakeFiles/cmTC_a9e20.dir/build
-Building CXX object CMakeFiles/cmTC_a9e20.dir/src.cxx.o
-/usr/local/bin/g++-7    -DCOMPILER_SUPPORTS_CXX17   -std=c++17 -o CMakeFiles/cmTC_a9e20.dir/src.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_a9e20
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9e20.dir/link.txt --verbose=1
-/usr/local/bin/g++-7   -DCOMPILER_SUPPORTS_CXX17 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a9e20.dir/src.cxx.o  -o cmTC_a9e20 
+Run Build Command:"/usr/bin/make" "cmTC_0447a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0447a.dir/build.make CMakeFiles/cmTC_0447a.dir/build
+Building CXX object CMakeFiles/cmTC_0447a.dir/src.cxx.o
+/usr/local/bin/g++-7    -DCOMPILER_SUPPORTS_CXX17   -std=c++17 -o CMakeFiles/cmTC_0447a.dir/src.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0447a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0447a.dir/link.txt --verbose=1
+/usr/local/bin/g++-7   -DCOMPILER_SUPPORTS_CXX17 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0447a.dir/src.cxx.o  -o cmTC_0447a 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX14 succeeded with the following output:
 Change Dir: /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e52e8/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e52e8.dir/build.make CMakeFiles/cmTC_e52e8.dir/build
-Building CXX object CMakeFiles/cmTC_e52e8.dir/src.cxx.o
-/usr/local/bin/g++-7    -DCOMPILER_SUPPORTS_CXX14   -std=c++14 -o CMakeFiles/cmTC_e52e8.dir/src.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_e52e8
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e52e8.dir/link.txt --verbose=1
-/usr/local/bin/g++-7   -DCOMPILER_SUPPORTS_CXX14 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e52e8.dir/src.cxx.o  -o cmTC_e52e8 
+Run Build Command:"/usr/bin/make" "cmTC_18b5d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_18b5d.dir/build.make CMakeFiles/cmTC_18b5d.dir/build
+Building CXX object CMakeFiles/cmTC_18b5d.dir/src.cxx.o
+/usr/local/bin/g++-7    -DCOMPILER_SUPPORTS_CXX14   -std=c++14 -o CMakeFiles/cmTC_18b5d.dir/src.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_18b5d
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18b5d.dir/link.txt --verbose=1
+/usr/local/bin/g++-7   -DCOMPILER_SUPPORTS_CXX14 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_18b5d.dir/src.cxx.o  -o cmTC_18b5d 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
 Change Dir: /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fe0cd/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fe0cd.dir/build.make CMakeFiles/cmTC_fe0cd.dir/build
-Building CXX object CMakeFiles/cmTC_fe0cd.dir/src.cxx.o
-/usr/local/bin/g++-7    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_fe0cd.dir/src.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_fe0cd
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe0cd.dir/link.txt --verbose=1
-/usr/local/bin/g++-7   -DCOMPILER_SUPPORTS_CXX11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fe0cd.dir/src.cxx.o  -o cmTC_fe0cd 
+Run Build Command:"/usr/bin/make" "cmTC_3ca37/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3ca37.dir/build.make CMakeFiles/cmTC_3ca37.dir/build
+Building CXX object CMakeFiles/cmTC_3ca37.dir/src.cxx.o
+/usr/local/bin/g++-7    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_3ca37.dir/src.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3ca37
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ca37.dir/link.txt --verbose=1
+/usr/local/bin/g++-7   -DCOMPILER_SUPPORTS_CXX11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3ca37.dir/src.cxx.o  -o cmTC_3ca37 
 
 Source file was:
 int main() { return 0; }
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1d752/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1d752.dir/build.make CMakeFiles/cmTC_1d752.dir/build
-Building CXX object CMakeFiles/cmTC_1d752.dir/CheckIncludeFile.cxx.o
-/usr/local/bin/g++-7    -std=c++17 -std=gnu++17    -o CMakeFiles/cmTC_1d752.dir/CheckIncludeFile.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_1d752
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d752.dir/link.txt --verbose=1
-/usr/local/bin/g++-7   -std=c++17 -std=gnu++17  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1d752.dir/CheckIncludeFile.cxx.o  -o cmTC_1d752 
+Run Build Command:"/usr/bin/make" "cmTC_a4811/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a4811.dir/build.make CMakeFiles/cmTC_a4811.dir/build
+Building CXX object CMakeFiles/cmTC_a4811.dir/CheckIncludeFile.cxx.o
+/usr/local/bin/g++-7    -std=c++17 -std=gnu++17    -o CMakeFiles/cmTC_a4811.dir/CheckIncludeFile.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_a4811
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4811.dir/link.txt --verbose=1
+/usr/local/bin/g++-7   -std=c++17 -std=gnu++17  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a4811.dir/CheckIncludeFile.cxx.o  -o cmTC_a4811 
 
 
 Determining if the pthread_create exist passed with the following output:
 Change Dir: /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1caa3/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1caa3.dir/build.make CMakeFiles/cmTC_1caa3.dir/build
-Building CXX object CMakeFiles/cmTC_1caa3.dir/CheckSymbolExists.cxx.o
-/usr/local/bin/g++-7    -std=c++17 -std=gnu++17    -o CMakeFiles/cmTC_1caa3.dir/CheckSymbolExists.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_1caa3
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1caa3.dir/link.txt --verbose=1
-/usr/local/bin/g++-7   -std=c++17 -std=gnu++17  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1caa3.dir/CheckSymbolExists.cxx.o  -o cmTC_1caa3 
+Run Build Command:"/usr/bin/make" "cmTC_2bbae/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2bbae.dir/build.make CMakeFiles/cmTC_2bbae.dir/build
+Building CXX object CMakeFiles/cmTC_2bbae.dir/CheckSymbolExists.cxx.o
+/usr/local/bin/g++-7    -std=c++17 -std=gnu++17    -o CMakeFiles/cmTC_2bbae.dir/CheckSymbolExists.cxx.o -c /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_2bbae
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bbae.dir/link.txt --verbose=1
+/usr/local/bin/g++-7   -std=c++17 -std=gnu++17  -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2bbae.dir/CheckSymbolExists.cxx.o  -o cmTC_2bbae 
 
 File /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */

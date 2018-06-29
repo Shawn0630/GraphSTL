@@ -17,6 +17,8 @@ map
 -
 vector
 -
+deque
+-
 experimental/optional
 -
 iostream
@@ -42,6 +44,8 @@ queue
 stack
 -
 set
+-
+deque
 -
 
 ../src/model/Graph.cpp

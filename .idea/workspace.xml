@@ -14,16 +14,163 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Clang" CONFIG_NAME="Debug" />
       <configuration PROFILE_NAME="GCC/G++" CONFIG_NAME="Debug" GENERATION_OPTIONS="-D CMAKE_C_COMPILER=gcc-7 -D CMAKE_CXX_COMPILER=g++-7" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84e242b8-980f-43dd-85d5-535734f0cfb6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/doc/examples/CMakeFiles/example-caffeine.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/doc/examples/CMakeFiles/example-caffeine.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/doc/examples/CMakeFiles/example-route_finding.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/doc/examples/CMakeFiles/example-route_finding.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/doc/examples/CMakeFiles/example-route_finding.dir/route_finding.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/doc/examples/CMakeFiles/example-route_finding.dir/route_finding.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/doc/examples/example-route_finding" beforeDir="false" afterPath="$PROJECT_DIR$/build/doc/examples/example-route_finding" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/gtest/src/gtest-build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/gtest/src/gtest-build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/testconstructor/CMakeFiles/testconstructor.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/testconstructor/CMakeFiles/testconstructor.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Graph.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-caffeine.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-caffeine.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-caffeine.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-caffeine.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-caffeine.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-caffeine.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-caffeine.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-route_finding.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-route_finding.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-route_finding.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-route_finding.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-route_finding.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-route_finding.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/example-route_finding.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/doc/examples/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/CMakeFiles/libbar.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/CMakeFiles/libbar.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/CMakeFiles/libbar.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/CMakeFiles/libbar.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/CMakeFiles/libbar.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/CMakeFiles/libbar.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/CMakeFiles/libbar.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/CMakeFiles/libbar.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libbar/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/CMakeFiles/libfoo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/CMakeFiles/libfoo.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/CMakeFiles/libfoo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/CMakeFiles/libfoo.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/CMakeFiles/libfoo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/CMakeFiles/libfoo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/CMakeFiles/libfoo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/CMakeFiles/libfoo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libfoo/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/gtest.dir/Labels.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/gtest.dir/Labels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/gtest.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/gtest.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/gtest.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/gtest/src/gtest-stamp/download-gtest.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/gtest/src/gtest-stamp/extract-gtest.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/gtest/src/gtest-stamp/gtest-urlinfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/gtest/src/gtest-stamp/verify-gtest.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/gtest/tmp/gtest-cfgcmd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/gtest/tmp/gtest-cfgcmd.txt.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testconstructor/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testconstructor/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testconstructor/CMakeFiles/testconstructor.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testconstructor/CMakeFiles/testconstructor.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testconstructor/CMakeFiles/testconstructor.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testconstructor/CMakeFiles/testconstructor.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testconstructor/CMakeFiles/testconstructor.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testconstructor/CMakeFiles/testconstructor.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testconstructor/CMakeFiles/testconstructor.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testconstructor/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testconstructor/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testconstructor/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testcyclegraph/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testcyclegraph/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testcyclegraph/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testcyclegraph/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testcyclegraph/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testfoo/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testfoo/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testfoo/CMakeFiles/testfoo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testfoo/CMakeFiles/testfoo.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testfoo/CMakeFiles/testfoo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testfoo/CMakeFiles/testfoo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testfoo/CMakeFiles/testfoo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testfoo/CMakeFiles/testfoo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testfoo/CMakeFiles/testfoo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testfoo/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testfoo/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test/testfoo/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/Progress/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/Progress/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/Progress/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/doc/examples/CMakeFiles/example-caffeine.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/doc/examples/CMakeFiles/example-caffeine.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/doc/examples/CMakeFiles/example-route_finding.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/doc/examples/CMakeFiles/example-route_finding.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/doc/examples/example-caffeine" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/doc/examples/example-caffeine" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/doc/examples/example-caffeine.dSYM/Contents/Resources/DWARF/example-caffeine" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/doc/examples/example-caffeine.dSYM/Contents/Resources/DWARF/example-caffeine" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/doc/examples/example-route_finding.dSYM/Contents/Resources/DWARF/example-route_finding" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/doc/examples/example-route_finding.dSYM/Contents/Resources/DWARF/example-route_finding" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/test/gtest/src/gtest-build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/test/gtest/src/gtest-build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/test/gtest/src/gtest-build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/test/gtest/src/gtest-build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/test/testconstructor/CMakeFiles/testconstructor.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/test/testconstructor/CMakeFiles/testconstructor.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Graph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Node.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-gccg/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-clang/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,14 +181,29 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:GCC/G++" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testcyclegraph.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.cpp">
+      <file leaf-file-name="Graph.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Graph.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graph.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/Graph.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1695">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Node.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -61,9 +223,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/model/Graph.h" />
-        <option value="$PROJECT_DIR$/src/model/Graph.cpp" />
         <option value="$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.cpp" />
+        <option value="$PROJECT_DIR$/src/model/Graph.cpp" />
+        <option value="$PROJECT_DIR$/src/model/Graph.h" />
+        <option value="$PROJECT_DIR$/src/model/Node.cpp" />
+        <option value="$PROJECT_DIR$/src/model/Node.h" />
       </list>
     </option>
   </component>
@@ -97,6 +261,11 @@
             <path>
               <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraphSTL" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphSTL" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -104,23 +273,6 @@
               <item name="GraphSTL" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphSTL" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphSTL" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="testconstructor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphSTL" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="testcyclegraph" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,16 +297,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.testconstructor">
-    <configuration name="testconstructor" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="testconstructor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Graph" RUN_TARGET_NAME="testconstructor" TEST_MODE="SUITE_TEST" />
-    <configuration name="testcyclegraph" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="testcyclegraph" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Graph" RUN_TARGET_NAME="testcyclegraph" TEST_MODE="SUITE_TEST" />
-    <configuration name="testfoo" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="testfoo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Graph" RUN_TARGET_NAME="testfoo" TEST_MODE="SUITE_TEST" />
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="example-caffeine" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="example-caffeine" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Graph" RUN_TARGET_NAME="example-caffeine" />
-    <configuration name="example-route_finding" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="example-route_finding" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Graph" RUN_TARGET_NAME="example-route_finding" />
-    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="gtest" CONFIG_NAME="Debug" />
-    <configuration name="libbar" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="libbar" CONFIG_NAME="Debug" />
-    <configuration name="libfoo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="libfoo" CONFIG_NAME="Debug" />
+  <component name="RunManager" selected="Application.Build All">
+    <configuration name="testconstructor" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="testconstructor" CONFIG_NAME="Clang" RUN_TARGET_PROJECT_NAME="Graph" RUN_TARGET_NAME="testconstructor" TEST_MODE="SUITE_TEST" />
+    <configuration name="testcyclegraph" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="testcyclegraph" CONFIG_NAME="Clang" RUN_TARGET_PROJECT_NAME="Graph" RUN_TARGET_NAME="testcyclegraph" TEST_MODE="SUITE_TEST" />
+    <configuration name="testfoo" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="testfoo" CONFIG_NAME="Clang" RUN_TARGET_PROJECT_NAME="Graph" RUN_TARGET_NAME="testfoo" TEST_MODE="SUITE_TEST" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Clang" RUN_TARGET_PROJECT_NAME="Graph" RUN_TARGET_NAME="testcyclegraph" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="example-caffeine" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="example-caffeine" CONFIG_NAME="Clang" RUN_TARGET_PROJECT_NAME="Graph" RUN_TARGET_NAME="example-caffeine" />
+    <configuration name="example-route_finding" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="example-route_finding" CONFIG_NAME="Clang" RUN_TARGET_PROJECT_NAME="Graph" RUN_TARGET_NAME="example-route_finding" />
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="gtest" CONFIG_NAME="Clang" />
+    <configuration name="libbar" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="libbar" CONFIG_NAME="Clang" />
+    <configuration name="libfoo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Graph" TARGET_NAME="libfoo" CONFIG_NAME="Clang" />
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.example-caffeine" />
@@ -179,26 +331,25 @@
       <updated>1530206093320</updated>
       <workItem from="1530206097338" duration="3516000" />
       <workItem from="1530210901255" duration="8110000" />
-      <workItem from="1530242297777" duration="10122000" />
+      <workItem from="1530242297777" duration="11879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21748000" />
+    <option name="totallyTimeSpent" value="23505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13402778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13601127" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.2936321" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49930555" weight="0.3018182" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32900944" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50069445" side_tool="true" weight="0.2936321" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969698" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -243,10 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4740">
           <caret line="316" column="4" lean-forward="true" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="4" />
-          <folding>
-            <element signature="e#86#115#0" expanded="true" />
-            <element signature="e#10395#10432#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -257,14 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9570">
           <caret line="638" selection-start-line="638" selection-end-line="638" />
-          <folding>
-            <element signature="e#43#57#0" expanded="true" />
-            <element signature="e#85#129#0" expanded="true" />
-            <element signature="e#258#302#0" expanded="true" />
-            <element signature="e#21348#21392#0" expanded="true" />
-            <element signature="e#21965#22009#0" expanded="true" />
-            <element signature="e#23142#23186#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -286,15 +425,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4395">
           <caret line="293" selection-start-line="293" selection-end-line="293" />
-          <folding>
-            <element signature="e#86#115#0" expanded="true" />
-            <element signature="e#10395#10432#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Node.h">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/testconstructor/testconstructor.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -317,30 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Graph.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="655" column="5" selection-start-line="655" selection-start-column="5" selection-end-line="655" selection-end-column="5" />
-          <folding>
-            <element signature="e#43#57#0" expanded="true" />
-            <element signature="e#85#129#0" expanded="true" />
-            <element signature="e#258#302#0" expanded="true" />
-            <element signature="e#21348#21392#0" expanded="true" />
-            <element signature="e#21965#22009#0" expanded="true" />
-            <element signature="e#23142#23186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testconstructor/testconstructor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1520">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/testconstructor/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -348,24 +456,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testcyclegraph/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testconstructor/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Graph.h">
+    <entry file="file://$PROJECT_DIR$/test/testconstructor/testconstructor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="293" column="30" selection-start-line="293" selection-start-column="30" selection-end-line="293" selection-end-column="30" />
+        <state>
           <folding>
-            <element signature="e#86#115#0" expanded="true" />
-            <element signature="e#10395#10432#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Node.cpp">
+    <entry file="file://$PROJECT_DIR$/test/testconstructor/main.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.cpp">
@@ -375,6 +475,47 @@
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/detail.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testcyclegraph/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testcyclegraph/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1695">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

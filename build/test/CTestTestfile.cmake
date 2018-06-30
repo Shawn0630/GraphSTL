@@ -7,3 +7,4 @@
 subdirs("testfoo")
 subdirs("testconstructor")
 subdirs("testcyclegraph")
+subdirs("testdisconnectedgraph")

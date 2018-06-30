@@ -9,14 +9,14 @@
 #include <iostream>
 
 // The fixture for testing class Foo.
-class CycleGraphTest : public ::testing::Test
+class DisconnectedGraphTest : public ::testing::Test
 {
   protected:
     // You can do set-up work for each test here.
-    CycleGraphTest();
+    DisconnectedGraphTest();
 
     // You can do clean-up work that doesn't throw exceptions here.
-    virtual ~CycleGraphTest();
+    virtual ~DisconnectedGraphTest();
 
     // If the constructor and destructor are not enough for setting up
     // and cleaning up each test, you can define the following methods:
@@ -35,9 +35,6 @@ class CycleGraphTest : public ::testing::Test
     using Graph_undirected = graph_undirected<std::string, int>;
 
     public:
-        Graph_directed direct;
-        Graph_undirected undirect;
-
-        Graph_directed direct_with_self_loop;
-        Graph_undirected undirected_with_self_loop;
+        Graph_directed directed;
+        Graph_undirected undirected;
 };

@@ -620,7 +620,6 @@ std::multimap<Key, Key> graph<Key, T, Cost, Nat>::get_sccs() const {
     using std::deque;
     using std::map;
     using std::multimap;
-    using std::vector;
 
     std::size_t order = 0;
     deque<Key> stack;
@@ -664,34 +663,41 @@ void graph<Key, T, Cost, Nat>::strong_connect(const Key &key, std::deque<Key> &s
 }
 
 template <class Key, class T, class Cost, Nature Nat>
-std::vector<Key> graph<Key, T, Cost, Nat>::get_dfs_tree() const {
+bool graph<Key, T, Cost, Nat>::is_cyclic_until(const_iterator it, std::deque<Key>& visited, std::deque<Key> recStack) const{
     using std::deque;
-    using std::vector;
 
-    vector<Key> visited;
-    deque<Key> stack;
-    stack.push_back(cbegin()->first);
-    visited.push_back(cbegin()->first);
-
-    while (!stack.empty()) {
-        Key p{stack.front()};
-        stack.pop_front();
-
-        std::vector<typename node::edge> list{get_nature() == DIRECTED ? get_out_edges(p) : get_edges(p)};
-        for (typename node::edge e : list) {
-            const_iterator i{e.target()};
-            if (std::find(visited.cbegin(), visited.cend(), i->first) == visited.cend()) {
-                stack.push_back(i->first);
-                visited.push_back(i->first);
+    // push in stack when node is called
+    recStack.push_back(it->first);
+    visited.push_back(it->first);
+    std::vector<typename node::edge> list{get_nature() == DIRECTED ? get_out_edges(it) : get_edges(it)};
+    for (typename node::edge e : list) {
+        const_iterator i{e.target()};
+        if (std::find(visited.cbegin(), visited.cend(), i->first) == visited.cend()) {
+            if (is_cyclic_until(i, visited, recStack)) {
+                return true;
             }
+        } else if (std::find(recStack.cbegin(), recStack.cend(), i->first) != recStack.cend()) {
+            return true;
         }
     }
-
-    return visited;
+    recStack.pop_back();
+    return false;
 }
 
 template <class Key, class T, class Cost, Nature Nat>
 bool graph<Key, T, Cost, Nat>::is_cyclic() const {
+    using std::deque;
+
+    deque<Key> visited;
+    deque<Key> recStack;
+
+    for (const_iterator it{cbegin()}; it != cend(); ++it) {
+        if (is_cyclic_until(it, visited, recStack)) {
+            return true;
+        }
+    }
+
+    return false;
 }
 
 template <class Key, class T, class Cost, Nature Nat>

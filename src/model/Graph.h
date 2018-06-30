@@ -289,13 +289,11 @@ class graph {
     inline std::vector<typename node::edge> get_edges    (const key_type &) const;
 
     std::multimap<Key, Key> get_sccs() const;
-    // TODO
-    std::vector<Key> get_dfs_tree() const;
-    //TODO
     void strong_connect(const Key &, std::deque<Key> &, std::size_t, std::map<Key, std::size_t> &, std::map<Key, std::size_t> &, std::multimap<Key, Key> &) const;
     bool is_cyclic() const;
-    // TODO
+    bool is_cyclic_until(const_iterator , std::deque<Key> &, std::deque<Key>) const;
     bool is_isomorphic() const;
+    // TODO
 
     ///
     //! @section Text functions

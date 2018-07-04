@@ -21,26 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="84e242b8-980f-43dd-85d5-535734f0cfb6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/gtest/src/gtest-build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/gtest/src/gtest-build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/testcyclegraph/CMakeFiles/testcyclegraph.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test/testcyclegraph/testcyclegraph" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/testcyclegraph/testcyclegraph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test/testdisconnectedgraph/testdisconnectedgraph" beforeDir="false" afterPath="$PROJECT_DIR$/build/test/testdisconnectedgraph/testdisconnectedgraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/Progress/20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/Graph.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/Graph.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/test/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/test/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/test/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/test/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/test/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/test/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-gccg/test/testfoo/CMakeFiles/testfoo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-gccg/test/testfoo/CMakeFiles/testfoo.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Graph.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Graph.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.cpp" afterDir="false" />
@@ -62,17 +44,17 @@
       <file leaf-file-name="testcyclegraph.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+            <state relative-caret-position="522">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graph.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Graph.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3722">
-              <caret line="292" column="18" selection-start-line="292" selection-start-column="9" selection-end-line="292" selection-end-column="18" />
+            <state relative-caret-position="190">
+              <caret line="158" column="31" selection-start-line="158" selection-start-column="31" selection-end-line="158" selection-end-column="31" />
               <folding>
                 <element signature="e#8388#8456#0" expanded="true" />
                 <element signature="e#8546#8614#0" expanded="true" />
@@ -80,81 +62,6 @@
                 <element signature="e#8877#8945#0" expanded="true" />
                 <element signature="e#9043#9111#0" expanded="true" />
                 <element signature="e#9208#9276#0" expanded="true" />
-                <element signature="e#9611#9679#0" expanded="true" />
-                <element signature="e#9786#9854#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Node.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="42" column="20" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Graph.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Graph.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="709" column="43" selection-start-line="709" selection-start-column="43" selection-end-line="709" selection-end-column="43" />
-              <folding>
-                <element signature="e#64#78#0" expanded="true" />
-                <element signature="e#4833#4877#0" expanded="true" />
-                <element signature="e#5078#5355#0" expanded="true" />
-                <element signature="e#5905#5949#0" expanded="true" />
-                <element signature="e#6174#6218#0" expanded="true" />
-                <element signature="e#6381#6872#0" expanded="true" />
-                <element signature="e#19348#19392#0" expanded="true" />
-                <element signature="e#20786#20830#0" expanded="true" />
-                <element signature="e#20840#20847#0" expanded="true" />
-                <element signature="e#21114#21158#0" expanded="true" />
-                <element signature="e#21168#21175#0" expanded="true" />
-                <element signature="e#21369#21413#0" expanded="true" />
-                <element signature="e#21933#21977#0" expanded="true" />
-                <element signature="e#23106#23150#0" expanded="true" />
-                <element signature="e#23168#23175#0" expanded="true" />
-                <element signature="e#23982#24026#0" expanded="true" />
-                <element signature="e#24087#24094#0" expanded="true" />
-                <element signature="e#24826#24870#0" expanded="true" />
-                <element signature="e#23973#24017#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Node.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="190" column="31" selection-start-line="190" selection-start-column="23" selection-end-line="190" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/detail.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="379" column="4" selection-start-line="379" selection-start-column="4" selection-end-line="379" selection-end-column="4" />
-              <folding>
-                <element signature="e#508#620#0" expanded="true" />
-                <element signature="e#720#841#0" expanded="true" />
-                <element signature="e#850#884#0" expanded="true" />
-                <element signature="e#16235#16243#0" expanded="true" />
-                <element signature="e#16316#16318#0" expanded="true" />
-                <element signature="e#16398#16406#0" expanded="true" />
-                <element signature="e#16483#16485#0" expanded="true" />
-                <element signature="e#16699#16713#0" expanded="true" />
-                <element signature="e#16753#16782#0" expanded="true" />
-                <element signature="e#16868#16880#0" expanded="true" />
-                <element signature="e#17518#17593#0" expanded="true" />
-                <element signature="e#18172#18181#0" expanded="true" />
-                <element signature="e#19379#19388#0" expanded="true" />
-                <element signature="e#19752#19754#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,8 +70,8 @@
       <file leaf-file-name="testcyclegraph.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="489">
+              <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -172,29 +79,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testdisconnectedgraph.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testdisconnectedgraph/testdisconnectedgraph.h">
+      <file leaf-file-name="Graph.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Graph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="476">
+              <caret line="801" column="131" selection-start-line="801" selection-start-column="131" selection-end-line="801" selection-end-column="131" />
+              <folding>
+                <element signature="e#64#78#0" expanded="true" />
+                <element signature="e#3565#3609#0" expanded="true" />
+                <element signature="e#3917#3961#0" expanded="true" />
+                <element signature="e#5343#5590#0" expanded="true" />
+                <element signature="e#5606#5650#0" expanded="true" />
+                <element signature="e#6415#6893#0" expanded="true" />
+                <element signature="e#6909#6953#0" expanded="true" />
+                <element signature="e#7206#7250#0" expanded="true" />
+                <element signature="e#19348#19392#0" expanded="true" />
+                <element signature="e#19973#19980#0" expanded="true" />
+                <element signature="e#20786#20830#0" expanded="true" />
+                <element signature="e#20840#20847#0" expanded="true" />
+                <element signature="e#21114#21158#0" expanded="true" />
+                <element signature="e#21168#21175#0" expanded="true" />
+                <element signature="e#21369#21413#0" expanded="true" />
+                <element signature="e#24826#24870#0" expanded="true" />
+                <element signature="e#25379#25423#0" expanded="true" />
+                <element signature="e#26446#26490#0" expanded="true" />
+                <element signature="e#26447#26491#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testconstructor.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testconstructor/testconstructor.h">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="-184">
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testdisconnectedgraph.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testdisconnectedgraph.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/testdisconnectedgraph/testdisconnectedgraph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+            <state relative-caret-position="105">
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -216,6 +144,7 @@
       <find>get_edges</find>
       <find>typename</find>
       <find>find</find>
+      <find>get_transpose</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -231,9 +160,9 @@
         <option value="$PROJECT_DIR$/test/testdisconnectedgraph/testdisconnectedgraph.h" />
         <option value="$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.h" />
         <option value="$PROJECT_DIR$/src/model/Graph.h" />
+        <option value="$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.cpp" />
         <option value="$PROJECT_DIR$/src/model/Graph.cpp" />
         <option value="$PROJECT_DIR$/test/testdisconnectedgraph/testdisconnectedgraph.cpp" />
-        <option value="$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.cpp" />
       </list>
     </option>
   </component>
@@ -267,11 +196,6 @@
             <path>
               <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraphSTL" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphSTL" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,12 +208,6 @@
               <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraphSTL" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphSTL" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="testconstructor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Graph" type="b2602c69:ProjectViewProjectNode" />
@@ -365,12 +283,12 @@
       <updated>1530206093320</updated>
       <workItem from="1530206097338" duration="3516000" />
       <workItem from="1530210901255" duration="8110000" />
-      <workItem from="1530242297777" duration="52362000" />
+      <workItem from="1530242297777" duration="61852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63988000" />
+    <option name="totallyTimeSpent" value="73478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -436,8 +354,6 @@
             <element signature="e#8877#8945#0" expanded="true" />
             <element signature="e#9043#9111#0" expanded="true" />
             <element signature="e#9208#9276#0" expanded="true" />
-            <element signature="e#9611#9679#0" expanded="true" />
-            <element signature="e#9786#9854#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -451,24 +367,24 @@
           <caret line="638" selection-start-line="638" selection-end-line="638" />
           <folding>
             <element signature="e#64#78#0" expanded="true" />
-            <element signature="e#4833#4877#0" expanded="true" />
-            <element signature="e#5078#5355#0" expanded="true" />
-            <element signature="e#5905#5949#0" expanded="true" />
-            <element signature="e#6174#6218#0" expanded="true" />
-            <element signature="e#6381#6872#0" expanded="true" />
+            <element signature="e#3565#3609#0" expanded="true" />
+            <element signature="e#3917#3961#0" expanded="true" />
+            <element signature="e#5343#5590#0" expanded="true" />
+            <element signature="e#5606#5650#0" expanded="true" />
+            <element signature="e#6415#6893#0" expanded="true" />
+            <element signature="e#6909#6953#0" expanded="true" />
+            <element signature="e#7206#7250#0" expanded="true" />
             <element signature="e#19348#19392#0" expanded="true" />
+            <element signature="e#19973#19980#0" expanded="true" />
             <element signature="e#20786#20830#0" expanded="true" />
             <element signature="e#20840#20847#0" expanded="true" />
             <element signature="e#21114#21158#0" expanded="true" />
             <element signature="e#21168#21175#0" expanded="true" />
             <element signature="e#21369#21413#0" expanded="true" />
-            <element signature="e#21933#21977#0" expanded="true" />
-            <element signature="e#23106#23150#0" expanded="true" />
-            <element signature="e#23168#23175#0" expanded="true" />
-            <element signature="e#23982#24026#0" expanded="true" />
-            <element signature="e#24087#24094#0" expanded="true" />
             <element signature="e#24826#24870#0" expanded="true" />
-            <element signature="e#23973#24017#0" expanded="true" />
+            <element signature="e#25379#25423#0" expanded="true" />
+            <element signature="e#26446#26490#0" expanded="true" />
+            <element signature="e#26447#26491#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -498,16 +414,7 @@
             <element signature="e#8877#8945#0" expanded="true" />
             <element signature="e#9043#9111#0" expanded="true" />
             <element signature="e#9208#9276#0" expanded="true" />
-            <element signature="e#9611#9679#0" expanded="true" />
-            <element signature="e#9786#9854#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -620,27 +527,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testdisconnectedgraph/testdisconnectedgraph.cpp">
+    <entry file="file://$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="522">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.h">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+        <state relative-caret-position="-184">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/testcyclegraph/testcyclegraph.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="489">
+          <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -649,36 +553,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Graph.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="709" column="43" selection-start-line="709" selection-start-column="43" selection-end-line="709" selection-end-column="43" />
+        <state relative-caret-position="476">
+          <caret line="801" column="131" selection-start-line="801" selection-start-column="131" selection-end-line="801" selection-end-column="131" />
           <folding>
             <element signature="e#64#78#0" expanded="true" />
-            <element signature="e#4833#4877#0" expanded="true" />
-            <element signature="e#5078#5355#0" expanded="true" />
-            <element signature="e#5905#5949#0" expanded="true" />
-            <element signature="e#6174#6218#0" expanded="true" />
-            <element signature="e#6381#6872#0" expanded="true" />
+            <element signature="e#3565#3609#0" expanded="true" />
+            <element signature="e#3917#3961#0" expanded="true" />
+            <element signature="e#5343#5590#0" expanded="true" />
+            <element signature="e#5606#5650#0" expanded="true" />
+            <element signature="e#6415#6893#0" expanded="true" />
+            <element signature="e#6909#6953#0" expanded="true" />
+            <element signature="e#7206#7250#0" expanded="true" />
             <element signature="e#19348#19392#0" expanded="true" />
+            <element signature="e#19973#19980#0" expanded="true" />
             <element signature="e#20786#20830#0" expanded="true" />
             <element signature="e#20840#20847#0" expanded="true" />
             <element signature="e#21114#21158#0" expanded="true" />
             <element signature="e#21168#21175#0" expanded="true" />
             <element signature="e#21369#21413#0" expanded="true" />
-            <element signature="e#21933#21977#0" expanded="true" />
-            <element signature="e#23106#23150#0" expanded="true" />
-            <element signature="e#23168#23175#0" expanded="true" />
-            <element signature="e#23982#24026#0" expanded="true" />
-            <element signature="e#24087#24094#0" expanded="true" />
             <element signature="e#24826#24870#0" expanded="true" />
-            <element signature="e#23973#24017#0" expanded="true" />
+            <element signature="e#25379#25423#0" expanded="true" />
+            <element signature="e#26446#26490#0" expanded="true" />
+            <element signature="e#26447#26491#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Graph.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3722">
-          <caret line="292" column="18" selection-start-line="292" selection-start-column="9" selection-end-line="292" selection-end-column="18" />
+        <state relative-caret-position="190">
+          <caret line="158" column="31" selection-start-line="158" selection-start-column="31" selection-end-line="158" selection-end-column="31" />
           <folding>
             <element signature="e#8388#8456#0" expanded="true" />
             <element signature="e#8546#8614#0" expanded="true" />
@@ -686,8 +590,16 @@
             <element signature="e#8877#8945#0" expanded="true" />
             <element signature="e#9043#9111#0" expanded="true" />
             <element signature="e#9208#9276#0" expanded="true" />
-            <element signature="e#9611#9679#0" expanded="true" />
-            <element signature="e#9786#9854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testdisconnectedgraph/testdisconnectedgraph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -156,6 +156,8 @@ class graph {
     /// move assignment operator
     graph &operator=(graph &&);
 
+    graph get_transpose() const;
+
     virtual ~graph();
 
     ///
@@ -296,6 +298,8 @@ class graph {
     bool directed_is_cyclic_until(const_iterator, std::deque<Key> &, std::deque<Key>) const;
     template <class = typename std::enable_if<detail::is_undirected<Nat>::value>>
     bool undirected_is_cyclic_until(const_iterator, std::deque<Key> &, const_iterator) const;
+    void dfs_until(const_iterator, std::deque<Key> &) const;
+    bool is_connected() const;
     bool is_isomorphic() const;
     // TODO
 

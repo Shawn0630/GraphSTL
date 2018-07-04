@@ -121,6 +121,22 @@ graph<Key, T, Cost, Nat> &graph<Key, T, Cost, Nat>::operator=(graph &&g) {
 }
 
 template <class Key, class T, class Cost, Nature Nat>
+graph<Key, T, Cost, Nat> graph<Key, T, Cost, Nat>::get_transpose() const{
+    graph<Key, T, Cost, Nat> transpose_graph;
+
+    for (const_iterator it{cbegin()}; it != cend(); ++it) {
+        std::list<typename node::edge> list = it->second->get_edges();
+        for (typename node::edge e : list) {
+            graph::const_iterator i{e.target()};
+            transpose_graph.add_edge(i->first, it->first, e.cost());
+        }
+    }
+
+    return transpose_graph;
+};
+
+
+template <class Key, class T, class Cost, Nature Nat>
 graph<Key, T, Cost, Nat>::~graph() {}
 
 /// Capacity
@@ -748,6 +764,49 @@ bool graph<Key, T, Cost, Nat>::is_cyclic() const {
     }
 
     return false;
+}
+
+template <class Key, class T, class Cost, Nature Nat>
+void graph<Key, T, Cost, Nat>::dfs_until(const_iterator it, std::deque<Key> & visited) const {
+    visited.push_back(it->first);
+
+    std::vector<typename node::edge> list{get_nature() == DIRECTED ? get_out_edges(it->first) : get_edges(it->first)};
+    for (typename node::edge e : list) {
+        const_iterator i{e.target()};
+        if (std::find(visited.cbegin(), visited.cend(), i->first) == visited.cend()) {
+            dfs_until(i, visited);
+        }
+    }
+};
+
+template <class Key, class T, class Cost, Nature Nat>
+bool graph<Key, T, Cost, Nat>::is_connected() const {
+    using std::deque;
+
+    deque<Key> visited;
+    deque<Key> transpose_visited;
+
+    const_iterator  it{cbegin()};
+    dfs_until(it, visited);
+    for(it = cbegin(); it != cend(); ++it) {
+        if (std::find(visited.cbegin(), visited.cend(), it->first) == visited.cend()) {
+            return false;
+        }
+    }
+
+    if (get_nature() == DIRECTED) {
+        const graph<Key, T, Cost, Nat> transpose_graph = get_transpose();
+        const_iterator transpose_it{transpose_graph.find(cbegin()->first)};
+        transpose_graph.dfs_until(transpose_it, transpose_visited);
+        for(transpose_it = transpose_graph.cbegin(); transpose_it != transpose_graph.cend(); ++transpose_it) {
+            if (std::find(transpose_visited.cbegin(), transpose_visited.cend(), transpose_it->first) == transpose_visited.cend()) {
+                return false;
+            }
+        }
+
+    }
+
+    return true;
 }
 
 template <class Key, class T, class Cost, Nature Nat>

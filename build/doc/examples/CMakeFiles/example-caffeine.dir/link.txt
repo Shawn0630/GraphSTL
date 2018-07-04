@@ -1,1 +1,0 @@
-/usr/local/bin/g++-7   -std=c++17 -std=gnu++17 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/example-caffeine.dir/caffeine.cpp.o  -o example-caffeine 

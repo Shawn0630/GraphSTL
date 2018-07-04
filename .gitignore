@@ -36,7 +36,7 @@
 .AppleDouble
 .LSOverride
 
-# cmake files
+# conf and build files
 .vscode/
 .idea/
-.build/
+build/

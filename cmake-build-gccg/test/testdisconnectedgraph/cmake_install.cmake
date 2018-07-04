@@ -1,4 +1,4 @@
-# Install script for directory: /Users/shawn/Files/Project/GraphSTL/test
+# Install script for directory: /Users/shawn/Files/Project/GraphSTL/test/testdisconnectedgraph
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,14 +30,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testfoo/cmake_install.cmake")
-  include("/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testconstructor/cmake_install.cmake")
-  include("/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testcyclegraph/cmake_install.cmake")
-  include("/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/cmake_install.cmake")
-
 endif()
 

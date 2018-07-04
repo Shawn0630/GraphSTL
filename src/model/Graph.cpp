@@ -616,7 +616,7 @@ std::vector<typename graph<Key, T, Cost, Nat>::node::edge> graph<Key, T, Cost, N
 }
 
 template <class Key, class T, class Cost, Nature Nat>
-std::multimap<Key, Key> graph<Key, T, Cost, Nat>::get_sccs() const {
+std::multimap<Key, Key> graph<Key, T, Cost, Nat>::get_strong_connect_components() const {
     using std::deque;
     using std::map;
     using std::multimap;
@@ -663,17 +663,18 @@ void graph<Key, T, Cost, Nat>::strong_connect(const Key &key, std::deque<Key> &s
 }
 
 template <class Key, class T, class Cost, Nature Nat>
-bool graph<Key, T, Cost, Nat>::is_cyclic_until(const_iterator it, std::deque<Key>& visited, std::deque<Key> recStack) const{
+template <class> /// enable_if_t<DIRECTED>
+bool graph<Key, T, Cost, Nat>::directed_is_cyclic_until(const_iterator it, std::deque<Key>& visited, std::deque<Key> recStack) const{
     using std::deque;
 
     // push in stack when node is called
     recStack.push_back(it->first);
     visited.push_back(it->first);
-    std::vector<typename node::edge> list{get_nature() == DIRECTED ? get_out_edges(it) : get_edges(it)};
+    std::vector<typename node::edge> list{get_out_edges(it)};
     for (typename node::edge e : list) {
         const_iterator i{e.target()};
         if (std::find(visited.cbegin(), visited.cend(), i->first) == visited.cend()) {
-            if (is_cyclic_until(i, visited, recStack)) {
+            if (directed_is_cyclic_until(i, visited, recStack)) {
                 return true;
             }
         } else if (std::find(recStack.cbegin(), recStack.cend(), i->first) != recStack.cend()) {
@@ -685,6 +686,49 @@ bool graph<Key, T, Cost, Nat>::is_cyclic_until(const_iterator it, std::deque<Key
 }
 
 template <class Key, class T, class Cost, Nature Nat>
+template <class> /// enable_if_t<UNDIRECTED>
+bool graph<Key, T, Cost, Nat>::undirected_is_cyclic_until(const_iterator it, std::deque<Key>& visited, const_iterator parent) const {
+    using std::deque;
+
+    // push in stack when node is called
+    visited.push_back(it->first);
+    std::vector<typename node::edge> list{get_edges(it)};
+    for (typename node::edge e : list) {
+        const_iterator i{e.target()};
+        if (std::find(visited.cbegin(), visited.cend(), i->first) == visited.cend()) {
+            if (undirected_is_cyclic_until(i, visited, it)) {
+                return true;
+            }
+        } else if ((parent == cend()) || (parent != cend() && i->first != parent->first)) {
+            return true;
+        }
+    }
+    return false;
+}
+
+template <class Key, class T, class Cost, Nature Nat>
+bool graph<Key, T, Cost, Nat>::has_cycle() const {
+    using std::deque;
+
+    deque<Key> visited;
+    deque<Key> recStack;
+
+    for (const_iterator it{cbegin()}; it != cend(); ++it) {
+        if (get_nature() == DIRECTED) {
+            if (directed_is_cyclic_until(it, visited, recStack)) {
+                return true;
+            }
+        } else {
+            if (undirected_is_cyclic_until(it, visited, cend())) {
+                return true;
+            }
+        }
+    }
+
+    return false;
+}
+
+template <class Key, class T, class Cost, Nature Nat>
 bool graph<Key, T, Cost, Nat>::is_cyclic() const {
     using std::deque;
 
@@ -692,8 +736,14 @@ bool graph<Key, T, Cost, Nat>::is_cyclic() const {
     deque<Key> recStack;
 
     for (const_iterator it{cbegin()}; it != cend(); ++it) {
-        if (is_cyclic_until(it, visited, recStack)) {
-            return true;
+        if (get_nature() == DIRECTED) {
+            if (directed_is_cyclic_until(it, visited, recStack)) {
+                return true;
+            }
+        } else {
+            if (undirected_is_cyclic_until(it, visited, cend())) {
+                return true;
+            }
         }
     }
 

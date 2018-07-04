@@ -30,3 +30,7 @@
 /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testcyclegraph/CMakeFiles/rebuild_cache.dir
 /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testcyclegraph/CMakeFiles/edit_cache.dir
 /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testcyclegraph/CMakeFiles/testcyclegraph.dir
+/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/CMakeFiles/test.dir
+/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/CMakeFiles/rebuild_cache.dir
+/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/CMakeFiles/edit_cache.dir
+/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir

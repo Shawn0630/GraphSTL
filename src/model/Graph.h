@@ -288,10 +288,14 @@ class graph {
     template <class = typename std::enable_if<detail::is_undirected<Nat>::value>>
     inline std::vector<typename node::edge> get_edges    (const key_type &) const;
 
-    std::multimap<Key, Key> get_sccs() const;
+    std::multimap<Key, Key> get_strong_connect_components() const;
     void strong_connect(const Key &, std::deque<Key> &, std::size_t, std::map<Key, std::size_t> &, std::map<Key, std::size_t> &, std::multimap<Key, Key> &) const;
+    bool has_cycle() const;
     bool is_cyclic() const;
-    bool is_cyclic_until(const_iterator , std::deque<Key> &, std::deque<Key>) const;
+    template <class = typename std::enable_if<detail::is_directed  <Nat>::value>>
+    bool directed_is_cyclic_until(const_iterator, std::deque<Key> &, std::deque<Key>) const;
+    template <class = typename std::enable_if<detail::is_undirected<Nat>::value>>
+    bool undirected_is_cyclic_until(const_iterator, std::deque<Key> &, const_iterator) const;
     bool is_isomorphic() const;
     // TODO
 

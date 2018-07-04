@@ -5,7 +5,7 @@
 		<Option title="Graph"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\doc\;CMake Files\doc\examples\;CMake Files\libfoo\;CMake Files\libbar\;CMake Files\test\;CMake Files\test\testfoo\;CMake Files\test\testconstructor\;CMake Files\test\testcyclegraph\;CMake Files\cmake-build-gccg\;CMake Files\cmake-build-gccg\test\;CMake Files\cmake-build-gccg\test\gtest\;CMake Files\cmake-build-gccg\test\gtest\tmp\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\doc\;CMake Files\doc\examples\;CMake Files\libfoo\;CMake Files\libbar\;CMake Files\test\;CMake Files\test\testfoo\;CMake Files\test\testconstructor\;CMake Files\test\testcyclegraph\;CMake Files\test\testdisconnectedgraph\;CMake Files\cmake-build-gccg\;CMake Files\cmake-build-gccg\test\;CMake Files\cmake-build-gccg\test\gtest\;CMake Files\cmake-build-gccg\test\gtest\tmp\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg"/>
@@ -451,6 +451,64 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testcyclegraph/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="testdisconnectedgraph">
+				<Option output="/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/testdisconnectedgraph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shawn/Files/Project/GraphSTL/single_include"/>
+					<Add directory="/Users/shawn/Files/Project/GraphSTL/src"/>
+					<Add directory="/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/gtest/src/gtest/googletest/include"/>
+					<Add directory="/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/gtest/src/gtest/googlemock/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/Makefile&quot;  VERBOSE=1 testdisconnectedgraph"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testdisconnectedgraph/fast">
+				<Option output="/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/testdisconnectedgraph" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shawn/Files/Project/GraphSTL/single_include"/>
+					<Add directory="/Users/shawn/Files/Project/GraphSTL/src"/>
+					<Add directory="/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/gtest/src/gtest/googletest/include"/>
+					<Add directory="/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/gtest/src/gtest/googlemock/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/x86_64-apple-darwin17.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/../../../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/7.3.0_1/lib/gcc/7/gcc/x86_64-apple-darwin17.3.0/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/Makefile&quot;  VERBOSE=1 testdisconnectedgraph/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/testdisconnectedgraph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/shawn/Files/Project/GraphSTL/doc/examples/caffeine.cpp">
 			<Option target="example-caffeine"/>
@@ -495,6 +553,15 @@
 		<Unit filename="/Users/shawn/Files/Project/GraphSTL/test/testcyclegraph/testcyclegraph.h">
 			<Option target="testcyclegraph"/>
 		</Unit>
+		<Unit filename="/Users/shawn/Files/Project/GraphSTL/test/testdisconnectedgraph/main.cpp">
+			<Option target="testdisconnectedgraph"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Files/Project/GraphSTL/test/testdisconnectedgraph/testdisconnectedgraph.cpp">
+			<Option target="testdisconnectedgraph"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Files/Project/GraphSTL/test/testdisconnectedgraph/testdisconnectedgraph.h">
+			<Option target="testdisconnectedgraph"/>
+		</Unit>
 		<Unit filename="/Users/shawn/Files/Project/GraphSTL/test/testfoo/main.cpp">
 			<Option target="testfoo"/>
 		</Unit>
@@ -527,6 +594,9 @@
 		</Unit>
 		<Unit filename="/Users/shawn/Files/Project/GraphSTL/test/testcyclegraph/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\testcyclegraph\"/>
+		</Unit>
+		<Unit filename="/Users/shawn/Files/Project/GraphSTL/test/testdisconnectedgraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\testdisconnectedgraph\"/>
 		</Unit>
 		<Unit filename="/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/test/gtest/tmp/gtest-cfgcmd.txt.in">
 			<Option virtualFolder="CMake Files\cmake-build-gccg\test\gtest\tmp\"/>

@@ -271,6 +271,7 @@ test/all: test/CMakeFiles/gtest.dir/all
 test/all: test/testfoo/all
 test/all: test/testconstructor/all
 test/all: test/testcyclegraph/all
+test/all: test/testdisconnectedgraph/all
 
 .PHONY : test/all
 
@@ -279,6 +280,7 @@ test/clean: test/CMakeFiles/gtest.dir/clean
 test/clean: test/testfoo/clean
 test/clean: test/testconstructor/clean
 test/clean: test/testcyclegraph/clean
+test/clean: test/testdisconnectedgraph/clean
 
 .PHONY : test/clean
 
@@ -286,6 +288,7 @@ test/clean: test/testcyclegraph/clean
 test/preinstall: test/testfoo/preinstall
 test/preinstall: test/testconstructor/preinstall
 test/preinstall: test/testcyclegraph/preinstall
+test/preinstall: test/testdisconnectedgraph/preinstall
 
 .PHONY : test/preinstall
 
@@ -352,7 +355,7 @@ test/testfoo/CMakeFiles/testfoo.dir/all: libfoo/CMakeFiles/libfoo.dir/all
 test/testfoo/CMakeFiles/testfoo.dir/all: test/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/testfoo/CMakeFiles/testfoo.dir/build.make test/testfoo/CMakeFiles/testfoo.dir/depend
 	$(MAKE) -f test/testfoo/CMakeFiles/testfoo.dir/build.make test/testfoo/CMakeFiles/testfoo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles --progress-num=23,24,25 "Built target testfoo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles --progress-num=26,27,28 "Built target testfoo"
 .PHONY : test/testfoo/CMakeFiles/testfoo.dir/all
 
 # Include target in all.
@@ -489,6 +492,61 @@ test/testcyclegraph/CMakeFiles/testcyclegraph.dir/clean:
 
 # clean rule for target.
 clean: test/testcyclegraph/CMakeFiles/testcyclegraph.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory test/testdisconnectedgraph
+
+# Convenience name for "all" pass in the directory.
+test/testdisconnectedgraph/all: test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/all
+
+.PHONY : test/testdisconnectedgraph/all
+
+# Convenience name for "clean" pass in the directory.
+test/testdisconnectedgraph/clean: test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/clean
+
+.PHONY : test/testdisconnectedgraph/clean
+
+# Convenience name for "preinstall" pass in the directory.
+test/testdisconnectedgraph/preinstall:
+
+.PHONY : test/testdisconnectedgraph/preinstall
+
+#=============================================================================
+# Target rules for target test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir
+
+# All Build rule for target.
+test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/all: test/CMakeFiles/gtest.dir/all
+	$(MAKE) -f test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/build.make test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/depend
+	$(MAKE) -f test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/build.make test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles --progress-num=23,24,25 "Built target testdisconnectedgraph"
+.PHONY : test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/all
+
+# Include target in all.
+all: test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shawn/Files/Project/GraphSTL/cmake-build-gccg/CMakeFiles 0
+.PHONY : test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/rule
+
+# Convenience name for target.
+testdisconnectedgraph: test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/rule
+
+.PHONY : testdisconnectedgraph
+
+# clean rule for target.
+test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/clean:
+	$(MAKE) -f test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/build.make test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/clean
+.PHONY : test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/clean
+
+# clean rule for target.
+clean: test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/clean
 
 .PHONY : clean
 

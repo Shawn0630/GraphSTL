@@ -225,6 +225,19 @@ testcyclegraph/fast:
 	$(MAKE) -f test/testcyclegraph/CMakeFiles/testcyclegraph.dir/build.make test/testcyclegraph/CMakeFiles/testcyclegraph.dir/build
 .PHONY : testcyclegraph/fast
 
+#=============================================================================
+# Target rules for targets named testdisconnectedgraph
+
+# Build rule for target.
+testdisconnectedgraph: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testdisconnectedgraph
+.PHONY : testdisconnectedgraph
+
+# fast build rule for target.
+testdisconnectedgraph/fast:
+	$(MAKE) -f test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/build.make test/testdisconnectedgraph/CMakeFiles/testdisconnectedgraph.dir/build
+.PHONY : testdisconnectedgraph/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -242,6 +255,7 @@ help:
 	@echo "... testfoo"
 	@echo "... testconstructor"
 	@echo "... testcyclegraph"
+	@echo "... testdisconnectedgraph"
 .PHONY : help
 
 

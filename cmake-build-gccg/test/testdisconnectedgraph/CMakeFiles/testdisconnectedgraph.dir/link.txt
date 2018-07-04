@@ -1,0 +1,1 @@
+/usr/local/bin/g++-7   -std=c++17 -std=gnu++17 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/testdisconnectedgraph.dir/main.cpp.o CMakeFiles/testdisconnectedgraph.dir/testdisconnectedgraph.cpp.o  -o testdisconnectedgraph ../gtest/src/gtest-build/googlemock/gtest/libgtest.a ../gtest/src/gtest-build/googlemock/libgmock.a 

@@ -1,0 +1,1 @@
+/usr/local/bin/g++-7   -std=c++17 -std=gnu++17 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/testfoo.dir/main.cpp.o CMakeFiles/testfoo.dir/testfoo.cpp.o  -o testfoo ../../libfoo/liblibfoo.a ../gtest/src/gtest-build/googlemock/gtest/libgtest.a ../gtest/src/gtest-build/googlemock/libgmock.a 

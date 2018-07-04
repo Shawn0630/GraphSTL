@@ -1,1 +1,0 @@
-/usr/local/bin/g++-7   -std=c++17 -std=gnu++17 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/testconstructor.dir/main.cpp.o CMakeFiles/testconstructor.dir/testconstructor.cpp.o  -o testconstructor ../gtest/src/gtest-build/googlemock/gtest/libgtest.a ../gtest/src/gtest-build/googlemock/libgmock.a 

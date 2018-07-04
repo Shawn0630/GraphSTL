@@ -37,4 +37,5 @@
 .LSOverride
 
 # cmake files
-.build
+.vscode
+.idea
